@@ -9,7 +9,7 @@ body {
 }
 
 .section1 {
-  /* background-color: #f1eade; */
+  background-color: #9a2d018a;
   height: 40rem;
 }
 .navbar {
@@ -17,6 +17,7 @@ body {
   align-items: center;
   max-width: 1536px;
   margin: 0 auto;
+  padding: 20px 0;
   justify-content: space-between;
 }
 
@@ -24,11 +25,13 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  width: 5rem;
+  height: 5rem;
 }
 
 .logoimg {
-  width: 5.5rem;
-  height: 5.5rem;
+  width: 100%;
+  height: 100%;
 }
 .links {
   width: 90%;
@@ -61,6 +64,7 @@ body {
   border: none;
   background-color: #51200e;
   color: #f1eade;
+  border-radius: 5px;
 }
 
 .icon-menu svg {
@@ -105,7 +109,7 @@ body {
 }
 
 .elenco-story {
-  background: linear-gradient(#f1eade, #9a2d01d3);
+  background: linear-gradient(#f1eade, #9a2d018a);
   padding-bottom: 5rem;
   position: relative;
 }
