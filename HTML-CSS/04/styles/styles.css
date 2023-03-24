@@ -2,14 +2,14 @@ body {
   margin: 0;
 }
 p {
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 h2,
 h3 {
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 li {
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 main {
   max-width: 1440px;
@@ -46,7 +46,7 @@ ul {
 }
 
 ul li::before {
-  content: '\2713';
+  content: "\2713";
   padding-right: 0.5rem;
 }
 
@@ -72,6 +72,7 @@ ul li::before {
   border: none;
   background-color: #000;
   color: #fff;
+  cursor: pointer;
 }
 
 .hero .right {
@@ -118,7 +119,7 @@ ul li::before {
 }
 
 .subtitle {
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: 2rem;
   width: 50%;
   margin: 0 auto;
@@ -689,12 +690,11 @@ footer .rights p {
   .intro {
     width: 100%;
   }
-  .intro .benefit {
-    width: 22rem;
-  }
+
   .intro .benefits .benefit p {
     margin: 1rem;
   }
+
   .intro .text .subtitle {
     padding: 0;
     display: flex;
@@ -772,19 +772,18 @@ footer .rights p {
     justify-content: center;
     height: 6rem;
     border-left: solid 0.1rem #d2d2d2;
-    padding-left: 0.5rem;
+    margin: 3rem 0;
   }
   .gallery .description div p {
     margin: 0;
     font-size: 0.9rem;
   }
   .points {
-    margin-left: 1rem;
     width: 90%;
     padding: 0.5rem;
   }
   .points .subtitle {
-    width: 70%;
+    width: 65%;
   }
   .points .products :nth-child(1),
   .points .products :nth-child(2),
@@ -809,7 +808,7 @@ footer .rights p {
   }
   .points .products :nth-child(3) :nth-child(2) {
     text-align: center;
-    width: 19rem;
+    width: 12rem;
     margin: 0.5rem;
   }
   .points .products :nth-child(3) :nth-child(3) {
@@ -828,7 +827,7 @@ footer .rights p {
   }
   .contact > div {
     padding: 1rem;
-    width: 90%;
+    width: 85%;
   }
   .contact div ul {
     width: 70%;
